@@ -1,0 +1,2 @@
+background-color: #E0E0E0 !important;
+box-shadow: 0 20px 50px rgba(59, 43, 91, 0.7);

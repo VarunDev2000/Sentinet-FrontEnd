@@ -1,0 +1,88 @@
+.card{
+	box-shadow: 5px 10px 8px #888888;
+	height: 90%;
+	width : 100%;
+	padding-top: 30%;
+	border-style: solid;
+  	border-color: #363739;
+  	padding: 2px;
+  	margin : 5px auto;
+  	background-color: #202020 !important;
+  	color: white;
+  	position: absolute;
+  	border-radius: 5px !important;
+}
+
+.outlay{
+	margin-left: 3%;
+	margin-right: 2%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 93%;
+	height: 75%;
+	background-color: white;
+	position: absolute;
+	border-radius: 5px;
+}
+
+select {
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 3px 5px;
+    box-shadow: inset 0 3px 6px rgba(0,0,0,0.1);
+    width: 40%;  
+    padding:5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+p{
+	font-size: 1.2vw;
+}
+
+.inline_button {
+	border-radius: 5px;
+	background-color: #470099;
+	padding: 3px 5px;
+    width: 90px;  
+    padding:3px;
+    display: inline-block;
+    margin: 10px;
+    color: white;
+}
+
+
+body { 
+	overflow-x: hidden;
+}
+
+p{
+  padding-top: 10px;
+  font-weight: 500;
+  font-family: Andale Mono, monospace;
+  font-size: 20px;
+}
+
+
+
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
