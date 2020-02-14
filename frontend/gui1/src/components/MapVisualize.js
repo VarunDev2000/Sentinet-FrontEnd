@@ -121,6 +121,7 @@ class MapVisualize extends Component {
 
     componentDidMount()
     {
+        document.title = "Sentinet";
         this.getJSONData("1");
     }
 

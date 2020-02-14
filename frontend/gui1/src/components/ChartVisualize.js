@@ -357,6 +357,7 @@ class ChartVisualize extends Component {
     }
 
     componentDidMount(){
+        document.title = "Sentinet";
         localStorage.setItem('changed',"no");
         this.getCategoryName("1");
         this.getJSONBarData("1");

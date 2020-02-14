@@ -7,7 +7,8 @@ import './css/bootstrap.min.css'
 
 class Firstpage extends React.Component{
 
-	 componentDidMount() {
+	componentDidMount() {
+		document.title = "Sentinet";
       document.body.classList.add("body-css");
     }
   
