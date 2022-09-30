@@ -9,7 +9,7 @@
     "@testing-library/user-event": "^7.1.2",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
-    "d3": "^5.15.0",
+    "d3": "^7.6.1",
     "hooks": "^0.3.2",
     "leaflet": "^1.6.0",
     "prop-types": "^15.7.2",
